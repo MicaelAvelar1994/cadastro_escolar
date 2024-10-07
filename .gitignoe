@@ -1,0 +1,75 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos ocultos criados pelo sistema
+*.DS_Store
+Thumbs.db
+
+# Environments virtuais de Python
+venv/
+env/
+*.env
+*.venv
+
+# Virtualenvs podem ter diferentes localizações
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de configuração de IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Configurações do PyCharm
+*.pydevproject
+.project
+.metadata
+.gradle/
+bin/
+tmp/
+
+# Arquivos de log, backup e temporários
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Padrões de armazenamento de banco de dados
+*.sqlite3
+
+# Arquivos de pacotes de Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Dependências baixadas (pip install -r requirements.txt as gerencia)
+pip-log.txt
+
+# Arquivos de lock (gerados automaticamente por bibliotecas de dependências)
+Pipfile.lock
+poetry.lock
+
+# Cache
+*.pyc
+*.pyo
+.cache/
+coverage/
+
+# Excluir arquivos de pacotes do PyInstaller
+*.manifest
+*.spec
+
+# Se estiver usando Jupyter Notebooks, pode excluir os checkpoints
+.ipynb_checkpoints/
+
+# Certificados ou chaves privadas
+*.pem
+*.key
+
+# Evitar arquivos do sistema operacional
+.DS_Store
